@@ -6,6 +6,7 @@ import standard from './styles/themes/standard'
 import { ThemeProvider } from 'styled-components'
 
 import { Header } from './components/Header'
+import { Footer } from './components/Footer'
 
 const App: FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: FC = () => {
         <GlobalStyle />
         <Header />
         <h1>Starting Systagging!</h1>
+        <Footer>DevSystem | Systagging - 2021</Footer>
       </ThemeProvider>
     </>
   )

@@ -22,6 +22,7 @@ export const Header: FC = () => {
       <LogoContainer>
         <Image src={logotipo} />
       </LogoContainer>
+
       <LoginContainer>
         <Text>LOGIN</Text>
       </LoginContainer>
