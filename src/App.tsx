@@ -7,15 +7,14 @@ import { ThemeProvider } from 'styled-components'
 
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
+import { Home } from './pages/Home'
 
 const App: FC = () => {
   return (
     <>
       <ThemeProvider theme={standard}>
         <GlobalStyle />
-        <Header />
-        <h1>Starting Systagging!</h1>
-        <Footer>DevSystem | Systagging - 2021</Footer>
+        <Home />
       </ThemeProvider>
     </>
   )
