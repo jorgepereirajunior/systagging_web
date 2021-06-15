@@ -23,3 +23,6 @@ yarn-error.log*
 
 # eslint
 .eslintrc.json
+
+# assets .png
+*.png
